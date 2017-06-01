@@ -18,7 +18,10 @@ const style = {
   width: "1em",
   height: "1em",
   margin: "0 .05em 0 .1em",
-  verticalAlign: "-0.1em"
+  verticalAlign: "middle",
+  lineHeight: "18px",
+  fontSize: "22px",
+  marginTop: "-4px"
 };
 
 export function toArray(text, options = {}) {
